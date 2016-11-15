@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>JavaScript获取客户端IP[利用搜狐接口]</title>
+		<link rel="shortcuticon" href="http://static.gyyx.cn/img/icon.ico">
+		<style>
+		.box{width:200px;max-height:100px;border:1px solid #ccc;overflow-y:auto;overflow-x:hidden;}
+		</style>
+	</head>
+	<body>
+		<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+		<script type="text/javascript">
+			document.write(returnCitySN["cip"]+' ，'+returnCitySN["cname"])
+		</script>
+	</body>
+</html>

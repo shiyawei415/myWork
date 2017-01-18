@@ -1,0 +1,9 @@
+*{margin:0px;padding:0px;box-sizing: border-box;}
+body{width:100%;position: relative;min-width: 1200px;overflow-x:hidden;background: #473678 }
+body, ul, ol, p, h1, h2, h3, h4, h5, dl, dd, form, input, textarea, td, th,span,p,li{margin: 0px;padding: 0px;font-family: arial,"Microsoft Yahei","宋体";}
+.fold h2{font-size: 16px;color:#fff}
+.fold h2,.logo{cursor:pointer}
+img{ border: medium none; display: block;outline:none}
+a{text-decoration: none;}
+.artical{width:100%;height:100%}
+article,aside,footer,header,section,footer,nav{display:block}

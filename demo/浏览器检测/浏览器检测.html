@@ -18,11 +18,22 @@
 				document.writeln("设备："+info.device+"<br/>");
 				document.writeln("语言："+info.language+"<br/>");
 				
-				if(info.device == 'PC'){
+				
+				//pc端和移动端判断
+				if(info.device === 'PC'){
 					alert('pc端')
 				}else{
 					alert('移动端')
 				}
+				
+				//安卓系统和ios判断
+				if(info.os === 'iOS'){
+					alert('ios')
+				}
+				if(info.os === 'Android'){
+					alert('Android')
+				}
+
 		</script>
 	</body>
 </html>

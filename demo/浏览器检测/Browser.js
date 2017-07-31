@@ -105,4 +105,7 @@ var Browser = function(userAgent){
 	if(version[_this.browser]){
 		_this.version = version[_this.browser]();
 	}
+	
+
+
 };
